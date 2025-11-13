@@ -15,7 +15,7 @@ spec:
     - name: frontend-pod
       ports: 
         - containerPort: 80
-      image: willey599/frontend:6ba7ab2dd2180dbc5d9b6f01e152e2f5ed624c29
+      image: willey599/frontend:605bfbf54db42b5d2c222108f3d3934b7702294f
       resources: 
         requests: 
           cpu: "100m"

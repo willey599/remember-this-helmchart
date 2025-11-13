@@ -7,7 +7,6 @@ metadata:
 {{- include "rememberthis.v1.backend-pod-labels" . | indent 4 }}
 spec:
   ports:
-    - containerPort: 8080
-      port: 8080
+    - port: 8080
   selector: 
 {{- include "rememberthis.v1.backend-pod-labels" . | indent 6 }}

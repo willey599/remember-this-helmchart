@@ -22,7 +22,7 @@ spec:
     spec: 
       containers: 
         - name: backend-pod
-          image: willey599/backend:6ba7ab2dd2180dbc5d9b6f01e152e2f5ed624c29
+          image: willey599/backend:605bfbf54db42b5d2c222108f3d3934b7702294f
           ports: 
             - containerPort: 8080
           env:
